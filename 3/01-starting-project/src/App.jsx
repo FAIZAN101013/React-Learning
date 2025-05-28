@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import MainGoal from "./components/MainGoal";
+import User from "./components/User";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h2>Time to get started!</h2>
       </main>
       <MainGoal />
+      <User />
     </div>
   );
 }
